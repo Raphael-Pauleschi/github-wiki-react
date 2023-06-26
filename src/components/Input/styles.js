@@ -7,7 +7,15 @@ export const InputContainer = styled.div`
     height: 62px;
     width: 80%;
 
+    margin: 20px;
+
     input{
+        border: 0;
+        width: 90%;
+        height: 100%;
+        padding: 0 20px;
+        color: #fff;
+        font-size: 20px;
         background: transparent;
     }
 `;

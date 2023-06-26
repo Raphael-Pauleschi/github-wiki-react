@@ -1,8 +1,16 @@
 import gitLogo from "../assets/github.png";
 import Input from "../components/Input";
 import { Container } from "./styles";
+import ItemRepo from "../components/ItemRepo";
+import { useState } from "react";
+import Button from "../components/Button";
 
 function App() {
+
+const [repos, setRepos] = useState([]);
+
+
+
   return (
     <Container>
       <img
@@ -12,6 +20,8 @@ function App() {
         alt="GitHub logo (a cat squid)"
       />
       <Input/>
+      <Button/>
+    <ItemRepo/>
     </Container>
   );
 }
