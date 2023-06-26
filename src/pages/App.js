@@ -1,8 +1,15 @@
+import gitLogo from '../assets/github.png'
+import { Container } from './styles';
+
 function App() {
   return (
-    <div className="App">
-     I am... React
-    </div>
+    <Container>
+      <img src={gitLogo} 
+      width={72}
+      height={72}
+      alt="GitHub logo (a cat squid)"
+      />
+    </Container>
   );
 }
 
