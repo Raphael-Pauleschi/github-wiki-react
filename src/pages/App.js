@@ -1,14 +1,17 @@
-import gitLogo from '../assets/github.png'
-import { Container } from './styles';
+import gitLogo from "../assets/github.png";
+import Input from "../components/Input";
+import { Container } from "./styles";
 
 function App() {
   return (
     <Container>
-      <img src={gitLogo} 
-      width={72}
-      height={72}
-      alt="GitHub logo (a cat squid)"
+      <img
+        src={gitLogo}
+        width={72}
+        height={72}
+        alt="GitHub logo (a cat squid)"
       />
+      <Input/>
     </Container>
   );
 }
