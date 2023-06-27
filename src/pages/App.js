@@ -28,9 +28,7 @@ const handleSearchRepo = async () =>{
 }
 
 const handleRemoveRepo = (id) => {
-  console.log('Removendo registro', id);
-
-  // utilizar filter.
+  setRepos(repos.filter(repo => repo.id !== id))
 }
 
 
